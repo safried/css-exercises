@@ -1,6 +1,7 @@
 /*
-- There is 8px between the edge of the card and its content (the blue sections).
-----padding?
+
+Something's off with the margin  around the card now...
+
 - There is an 8px gap between each of the blue sections inside the card.
 ----margin
 - There are 8px between the title text and the edge of the title section.
@@ -30,6 +31,8 @@ body {
 
 .content {
   background: #e3f4ff;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .button-container {
