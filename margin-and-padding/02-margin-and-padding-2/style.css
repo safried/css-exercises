@@ -1,7 +1,6 @@
 /*
 Something's off with the margin  around the card now...
 
-- The Big Button is centered on its own line.
 - The Big Button has 24px space on the sides, and 8px on top and bottom.
 */
 
@@ -44,4 +43,8 @@ button {
   border: 1px solid #eee;
   margin:auto;
   display:block;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
