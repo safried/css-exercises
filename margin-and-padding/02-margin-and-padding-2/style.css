@@ -1,7 +1,6 @@
 /*
 Something's off with the margin  around the card now...
 
-- Everything inside the `.button-container` section is centered, and there is 8px padding.
 - The Big Button is centered on its own line.
 - The Big Button has 24px space on the sides, and 8px on top and bottom.
 */
@@ -43,4 +42,6 @@ body {
 button {
   background: white;
   border: 1px solid #eee;
+  margin:auto;
+  display:block;
 }
