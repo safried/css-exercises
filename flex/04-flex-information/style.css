@@ -12,6 +12,7 @@ img {
   font-weight: 900;
   display: flex;
   justify-content: center;
+  padding-bottom: 32px;
 }
 
 /* do not edit this footer */
@@ -35,5 +36,4 @@ img {
 .item {
   display:flex;
   flex-direction: column;
-  justify-content: center;
 }
