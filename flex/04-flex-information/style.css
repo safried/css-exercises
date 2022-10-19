@@ -40,10 +40,9 @@ img {
   flex-direction: column;
   width: 200px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
-/*.text {
-  align-self: center;
-  justify-self: center;
+.text {
+  text-align: center;
 }
-*/
