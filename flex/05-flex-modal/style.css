@@ -80,11 +80,13 @@ button.cancel {
   justify-content: space-between;
 }
 
+/*
 .top-left {
   display:flex;
   flex-direction: row;
   gap: 8px;
 }
+*/
 
 .center {
   display: flex;
