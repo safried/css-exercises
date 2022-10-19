@@ -45,7 +45,7 @@ input {
   display: flex;
   flex-direction: row;
   padding: 16px;
-  gap: 8px;
+  gap: 16px;
 }
 
 .content{
@@ -57,4 +57,10 @@ input {
 
 ul{
   list-style: none
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
 }
