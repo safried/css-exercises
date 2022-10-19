@@ -22,8 +22,7 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   padding: 16px;
   display:flex;
-  flex-direction: column;
-  
+  flex-direction: row;
 }
 
 .icon {
@@ -37,7 +36,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  align-content: stretch
 }
 
 .close-button {
@@ -92,4 +90,10 @@ button.cancel {
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+
+.left-column{
+  display: flex;
+  align-content: stretch;
+  flex-direction: column;
 }
