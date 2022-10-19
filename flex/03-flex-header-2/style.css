@@ -27,14 +27,16 @@ body {
   
 }
 
-.left-side{
+.left-side {
   display:flex;
-  justify-content: left;
+  justify-content: flex-start;
+  gap:16px;
 }
 
-.right-side{
+.right-side {
   display:flex;
   justify-content: flex-end;
+  gap:16px;
 }
 
 .profile-image {
