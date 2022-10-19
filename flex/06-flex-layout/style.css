@@ -36,6 +36,10 @@ input {
   justify-content: space-between;
 }
 
+.footer {
+  background-color: #eeeeee;
+}
+
 .left-links,
 .right-links{
   display: flex;
