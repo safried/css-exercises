@@ -32,3 +32,11 @@ input {
   flex-direction: row;
   justify-content: space-between;
 }
+
+.left-links,
+.right-links{
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+  gap: 8px;
+}
