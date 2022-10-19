@@ -80,8 +80,15 @@ button.cancel {
   flex-direction: row;
   justify-content: space-between;
 }
+
 .top-left {
   display:flex;
   flex-direction: row;
+  gap: 8px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
   gap: 8px;
 }
