@@ -80,14 +80,6 @@ button.cancel {
   justify-content: space-between;
 }
 
-/*
-.top-left {
-  display:flex;
-  flex-direction: row;
-  gap: 8px;
-}
-*/
-
 .center {
   display: flex;
   flex-direction: column;
@@ -98,4 +90,11 @@ button.cancel {
   display: flex;
   align-content: stretch;
   flex-direction: column;
+  padding-right: 16px;
+}
+
+.bulk {
+  display: flex;
+  flex-direction: column;
+  
 }
