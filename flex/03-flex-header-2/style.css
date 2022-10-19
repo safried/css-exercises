@@ -27,10 +27,14 @@ body {
   
 }
 
-.left-side,
+.left-side{
+  display:flex;
+  justify-content: left;
+}
+
 .right-side{
   display:flex;
-
+  justify-content: flex-end;
 }
 
 .profile-image {
