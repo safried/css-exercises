@@ -32,9 +32,11 @@ img {
   display:flex;
   flex-direction: row;
   gap: 52px;
+  justify-content: center;
 }
 
 .item {
   display:flex;
   flex-direction: column;
+  width: 200px;
 }
